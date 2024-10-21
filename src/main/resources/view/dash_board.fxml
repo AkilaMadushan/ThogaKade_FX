@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #636e72;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashBoardController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="65.0" layoutY="175.0" onAction="#btnCustomerFormOnAction" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color: #f39c12;" text="Customer Form">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="343.0" layoutY="175.0" onAction="#btnItemFormOnAction" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color: #f39c12;" text="Item Form">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="200.0" layoutY="289.0" onAction="#btnPlaceOrderOnAction" prefHeight="56.0" prefWidth="193.0" style="-fx-background-color: #f39c12;" text="Place Order Form">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#143e65" height="111.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+      <Label layoutX="211.0" layoutY="32.0" text="Thoga Kade" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
